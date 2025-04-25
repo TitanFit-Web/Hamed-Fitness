@@ -108,11 +108,21 @@
     <p>"Best decision I've ever made for my health!" – Sarah<br>"Titanfit's program changed my life." – Mike</p>
   </section>
 
-  <section id="contact" class="section-dark">
+ <section id="contact" class="section-dark">
     <h2>Contact</h2>
-  <form action="mailto:titanfit.nsw@gmail.com" method="post" enctype="text/plain">
+    <form action="mailto:titanfit.nsw@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-  </section>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
 
   <footer>
     &copy; 2025 Titanfit. All rights reserved.
