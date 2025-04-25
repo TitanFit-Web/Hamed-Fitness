@@ -108,7 +108,7 @@
     <p>"Best decision I've ever made for my health!" – Sarah<br>"Titanfit's program changed my life." – Mike</p>
   </section>
 
- <section id="contact" class="section-dark">
+  <section id="contact" class="section-dark">
     <h2>Contact</h2>
     <form action="mailto:titanfit.nsw@gmail.com" method="post" enctype="text/plain">
         <label for="name">Name:</label>
@@ -122,7 +122,7 @@
 
         <button type="submit">Send Message</button>
     </form>
-</section>
+  </section>
 
   <footer>
     &copy; 2025 Titanfit. All rights reserved.
