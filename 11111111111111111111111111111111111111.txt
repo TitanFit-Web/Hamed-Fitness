@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Titanfit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #000;
+      border-bottom: 2px solid #ff0000;
+    }
+    header h1 {
+      color: #ff0000;
+      margin: 0;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin: 0;
+      color: #ff0000;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 20px 0;
+      color: #fff;
+    }
+    .btn {
+      background-color: #ff0000;
+      border: none;
+      padding: 15px 30px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .section-dark {
+      background-color: #111;
+    }
+    section h2 {
+      color: #ff0000;
+    }
+    footer {
+      background-color: #000;
+      color: #888;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Titanfit</h1>
+    <nav>
+      <a href="#programs">Programs</a>
+      <a href="#results">Results</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Build Strength. Burn Fat. Transform Your Life.</h2>
+    <p>Customized training and nutrition plans tailored to your goals. Join Titanfit and start your fitness journey today.</p>
+    <button class="btn">Join Now</button>
+  </div>
+
+  <section id="programs">
+    <h2>Programs</h2>
+    <p>Choose from Fat Loss, Muscle Gain, or Personalized Coaching programs designed to get real results.</p>
+  </section>
+
+  <section id="results" class="section-dark">
+    <h2>Client Results</h2>
+    <p>Check out the amazing transformations from our clients. You could be next.</p>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <p>"Best decision I've ever made for my health!" – Sarah<br>"Titanfit's program changed my life." – Mike</p>
+  </section>
+
+  <section id="contact" class="section-dark">
+    <h2>Contact</h2>
+    <p>Email: titanfit@example.com<br>Instagram: @titanfit.official</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Titanfit. All rights reserved.
+  </footer>
+</body>
+</html>
