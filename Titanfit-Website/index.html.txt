@@ -1,0 +1,10 @@
+<header style="display: flex; align-items: center; gap: 15px;">
+  <img src="logo.png" alt="Titanfit Logo" style="height: 60px;" />
+  <h1>Titanfit</h1>
+  <nav style="margin-left: auto;">
+    <a href="#programs">Programs</a>
+    <a href="#results">Results</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
